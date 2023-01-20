@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Details</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="main-body">
+    <h1>Fill the details.</h1>
+    <form id="detail-form" method="post" action=""> 
+
+        <label>Name</label>
+        <input name="fname" class="c1" type="text" value=""><br><br>
+        <label>Course completed</label>
+        <input name="course" class="c2" type="text" value=""><br><br>
+        <label>Mobile No.</label>
+        <input name="mbno" class="c3" type="number" value=""><br><br>
+        <label>Email Id</label>
+        <input name="email" class="c4" type="email" value=""><br><br>
+        <label>Location</label>
+        <input name="locatn" class="c5" type="text" value=""><br><br>
+        <label>Course Mode</label>
+        <input name="crsemde" class="c6" type="text" value=""><br><br>
+    <label>Note</label>
+    <input class="c7" type="text" value="">
+    <br><br>
+    <button type="button" class="b1">Submit</button>
+    </form>
+    <style>
+       
+        .main-body{
+            margin-top:50px;
+            width:300px;
+            height:500px;
+            margin-left:400px;
+            PADDING:20PX;
+            background-color: #8FBC8F;
+        }
+        .c1{
+            margin-left: 76px;
+        }
+        .c3{
+            margin-left: 42px;
+        }
+        .c4{
+            margin-left: 60px;
+        }
+        .c5{
+            margin-left: 60px;
+        }
+        .c6{
+            margin-left: 30px;
+        }
+        .c7{
+            margin-left: 10px;
+            padding:40px;
+        }
+        .b1{
+            margin-left: 100px;
+          padding:12px;  
+          font-size: 16px;
+          border-radius: 6px;
+        }
+        .b1:hover{
+            background-color: #008080;
+        }
+    </style>
+</div>
+<script src="./form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+</body>
+</html>
